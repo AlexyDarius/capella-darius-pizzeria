@@ -46,7 +46,86 @@
             id="9fdd18d2-791a-4ddd-9447-ff13a221e4dc" name="Root Operational Activity"/>
       </ownedFunctionPkg>
       <ownedAbstractCapabilityPkg xsi:type="org.polarsys.capella.core.data.oa:OperationalCapabilityPkg"
-          id="f7ccdac8-b83a-48e5-8e47-e07de765b27c" name="Operational Capabilities"/>
+          id="f7ccdac8-b83a-48e5-8e47-e07de765b27c" name="Operational Capabilities">
+        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
+            id="5ef64568-5439-425c-b341-fe96753cdebf" name="Prepare Pizza Components">
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="51db272e-9377-47f7-880f-924fb965f64a" involved="#26121af1-09d3-4d83-9f6d-2c6d29755b28"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="876815e5-e17c-4f79-9c2c-597038ae964a" involved="#3870aa3c-3771-46f1-a7ce-c9501c9a49e0"/>
+        </ownedOperationalCapabilities>
+        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
+            id="692eebff-ed54-4751-baa0-d8a089d9ea60" name="Enable Order Placement">
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="030a96cb-7dab-4bee-9e9b-01be6212e163" involved="#122f1f4a-d3d5-425b-8abe-c55680c67a6f"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="a70f60e5-6a5f-4a07-bac8-e623358eabcb" involved="#5990b4d3-008d-4e02-bad8-441fc011ad35"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="a007eefd-67ed-4e81-ba2a-3bd0fc135b52" involved="#9e711f62-2304-43e5-a8c8-ccf198870ec9"/>
+        </ownedOperationalCapabilities>
+        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
+            id="0af4965f-f6e4-4eaf-b0ea-ae86e86fb748" name="Process Payments">
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="25dfa358-a876-4f39-92eb-526c0923931a" involved="#b4ff9b5c-5b47-47f9-bf52-2e6c704cbe51"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="474a060d-23aa-47d2-b3ec-77598a32705e" involved="#e1998242-32c2-4d48-8a9f-c7360dd73168"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="72dfce57-a294-42f4-a6f3-1ebdfd607191" involved="#5990b4d3-008d-4e02-bad8-441fc011ad35"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="4d4b85ba-5cc2-4b17-ba48-2d013acf448e" involved="#9e711f62-2304-43e5-a8c8-ccf198870ec9"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="9da15f03-ed0d-4ea9-aa46-d0ee74e77692" involved="#8167e26d-7cc8-4daf-9eaa-a759a173d16b"/>
+        </ownedOperationalCapabilities>
+        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
+            id="e0f5f990-ef46-46d3-81f2-8091a5a72c70" name="Assemble and Cook orders">
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="ada4f05a-8c21-452d-af17-134235911144" involved="#3870aa3c-3771-46f1-a7ce-c9501c9a49e0"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="49a05ec4-7751-4dad-bd4b-02e05fc6822d" involved="#26121af1-09d3-4d83-9f6d-2c6d29755b28"/>
+        </ownedOperationalCapabilities>
+        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
+            id="a889cd83-ecad-4893-bce8-4928d028e63c" name="Manage Inventory">
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="aeed6703-0908-4d75-8fc8-7bf0e9a9fcb6" involved="#3093f0bf-fc1d-4f19-ba53-78d0c0c345ed"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="c9a2e666-479a-429c-a596-7561635a200d" involved="#9e711f62-2304-43e5-a8c8-ccf198870ec9"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="6e151fa0-4ae7-46d7-96e0-fa3c365e26f4" involved="#8e52b187-6854-453a-be2c-6a573a250d47"/>
+        </ownedOperationalCapabilities>
+        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
+            id="b0ed7f1d-6f64-43be-9957-8c49cf25dca8" name="Deliver Orders">
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="94a4fe50-ec9e-4bc6-a1e1-88be4218d177" involved="#122f1f4a-d3d5-425b-8abe-c55680c67a6f"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="f8a9b721-688f-4589-be50-64aeaa600dff" involved="#e1998242-32c2-4d48-8a9f-c7360dd73168"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="191538fa-03f0-4931-9743-76cc2b478a56" involved="#5990b4d3-008d-4e02-bad8-441fc011ad35"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="78a914ff-c34d-4356-afe8-f702b78d80ec" involved="#9e711f62-2304-43e5-a8c8-ccf198870ec9"/>
+        </ownedOperationalCapabilities>
+        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
+            id="e0594221-fe4a-44a7-93c9-bbec453b5d68" name="Monitor and Optimise Operations">
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="ddbbb6b0-e586-44a8-b462-dfe13cd6220d" involved="#3093f0bf-fc1d-4f19-ba53-78d0c0c345ed"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="f87f6ed7-e21b-415a-b992-ca6013ab0fb3" involved="#3870aa3c-3771-46f1-a7ce-c9501c9a49e0"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="64fa3793-55b9-49d4-b6d6-40f1837bbe84" involved="#e4de1a53-ea33-44ea-9d58-bf3df0de01b8"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="6a420b5c-6959-4a0a-94df-747a61eab32c" involved="#9e711f62-2304-43e5-a8c8-ccf198870ec9"/>
+        </ownedOperationalCapabilities>
+        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
+            id="5c87a035-94ad-4ce3-8dae-7519ff75f17c" name="Maintain App">
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="8ed3e4af-2a8f-444a-a867-a2b7d7633e4d" involved="#1e7ceff4-9b1d-45df-b697-72923aecc89c"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="92d3ffb5-601a-44e6-b27d-af48e72f93b1" involved="#9e711f62-2304-43e5-a8c8-ccf198870ec9"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="7da4dc01-73e8-4105-8508-173637c28ccf" involved="#5990b4d3-008d-4e02-bad8-441fc011ad35"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="d4054378-fca6-4d23-95df-c6558a30101b" involved="#e4de1a53-ea33-44ea-9d58-bf3df0de01b8"/>
+        </ownedOperationalCapabilities>
+      </ownedAbstractCapabilityPkg>
       <ownedInterfacePkg xsi:type="org.polarsys.capella.core.data.cs:InterfacePkg"
           id="d6f9ebfd-15b4-49d2-8ee3-ddd814ba4bc4" name="Interfaces"/>
       <ownedDataPkg xsi:type="org.polarsys.capella.core.data.information:DataPkg"
@@ -57,8 +136,58 @@
           name="Operational Entities">
         <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="97a17cb0-43dc-4c41-928a-8639f9507149"
             name="Pizzeria" abstractType="#8219d665-9629-4f0f-84c4-a75a3fc19c90"/>
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="e8e6e1b0-5d0f-462b-b558-acec298c8de2"
+            name="Client" abstractType="#5990b4d3-008d-4e02-bad8-441fc011ad35"/>
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="b846dd33-3aaf-4787-b920-8093d6e2f2fe"
+            name="Supplier" abstractType="#8e52b187-6854-453a-be2c-6a573a250d47"/>
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="512c67fc-8929-405c-8da2-d9160f61b227"
+            name="Payment Gateway" abstractType="#8167e26d-7cc8-4daf-9eaa-a759a173d16b"/>
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="6611870b-15c4-4059-ac07-7681422a7d49"
+            name="PizzeriApp" abstractType="#9e711f62-2304-43e5-a8c8-ccf198870ec9"/>
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="8219d665-9629-4f0f-84c4-a75a3fc19c90"
-            name="Pizzeria"/>
+            name="Pizzeria">
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="5ade8540-ddbd-4789-80b0-e5d731fd4b7d"
+              name="Business Manager" abstractType="#e4de1a53-ea33-44ea-9d58-bf3df0de01b8"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="821462c6-227f-4e8b-b15b-c026d6f03cca"
+              name="Casher" abstractType="#b4ff9b5c-5b47-47f9-bf52-2e6c704cbe51"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="438a7a4c-5239-44b9-9c75-1378a64d6d62"
+              name="Receptionist" abstractType="#122f1f4a-d3d5-425b-8abe-c55680c67a6f"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="4e4e00a8-f420-4b52-a1ae-731b1b7d99e8"
+              name="Chef" abstractType="#3870aa3c-3771-46f1-a7ce-c9501c9a49e0"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="24f45914-9493-476e-a73e-43159903fecf"
+              name="Kitchen Staff" abstractType="#26121af1-09d3-4d83-9f6d-2c6d29755b28"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="e680c025-31df-4322-bae2-ca10b5954221"
+              name="Driver" abstractType="#e1998242-32c2-4d48-8a9f-c7360dd73168"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="1a33c9ce-674b-4b6e-8c33-60667d62af55"
+              name="Operational Manager" abstractType="#3093f0bf-fc1d-4f19-ba53-78d0c0c345ed"/>
+          <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="e4de1a53-ea33-44ea-9d58-bf3df0de01b8"
+              name="Business Manager" actor="true" human="true"/>
+          <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="b4ff9b5c-5b47-47f9-bf52-2e6c704cbe51"
+              name="Casher" actor="true" human="true"/>
+          <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="122f1f4a-d3d5-425b-8abe-c55680c67a6f"
+              name="Receptionist" actor="true" human="true"/>
+          <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="3870aa3c-3771-46f1-a7ce-c9501c9a49e0"
+              name="Chef" actor="true" human="true"/>
+          <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="26121af1-09d3-4d83-9f6d-2c6d29755b28"
+              name="Kitchen Staff" actor="true" human="true"/>
+          <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="e1998242-32c2-4d48-8a9f-c7360dd73168"
+              name="Driver" actor="true" human="true"/>
+          <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="3093f0bf-fc1d-4f19-ba53-78d0c0c345ed"
+              name="Operational Manager" actor="true" human="true"/>
+        </ownedEntities>
+        <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="5990b4d3-008d-4e02-bad8-441fc011ad35"
+            name="Client" actor="true" human="true"/>
+        <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="8e52b187-6854-453a-be2c-6a573a250d47"
+            name="Supplier" actor="true" human="true"/>
+        <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="8167e26d-7cc8-4daf-9eaa-a759a173d16b"
+            name="Payment Gateway"/>
+        <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="9e711f62-2304-43e5-a8c8-ccf198870ec9"
+            name="PizzeriApp">
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="17f41843-e8df-48df-b32a-b4576ff6bc12"
+              name="Developer" abstractType="#1e7ceff4-9b1d-45df-b697-72923aecc89c"/>
+          <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="1e7ceff4-9b1d-45df-b697-72923aecc89c"
+              name="Developer" actor="true" human="true"/>
+        </ownedEntities>
       </ownedEntityPkg>
     </ownedArchitectures>
     <ownedArchitectures xsi:type="org.polarsys.capella.core.data.ctx:SystemAnalysis"
