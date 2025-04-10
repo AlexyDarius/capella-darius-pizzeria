@@ -1,0 +1,48 @@
+# Capella-Specific Exclusions
+# Temporary files and backups
+*.airdfragments/
+*.backup
+*.capella_backup
+
+# Capella generated files
+*.melodyproject
+*.melodymodeller.bak
+
+# Exclude Capella workspace metadata
+.project
+.metadata/
+
+# Resources/Data Temp Files
+resources/data/*.tmp
+resources/data/*.bak
+
+# OS-Specific Exclusions
+Thumbs.db
+desktop.ini
+*.lnk
+*.ds_store 
+*.tmp
+~$*
+*.log
+.DS_Store
+.AppleDouble
+.LSOverride
+*.swp
+*~.nib
+._*
+
+# Editor/IDE Files
+.vscode/           # Visual Studio Code
+.idea/             # IntelliJ IDEA 
+*.sublime-*        # Sublime Text
+*.code-workspace   # VS Code workspace files
+
+# Build/Dependency Artifacts
+node_modules/
+dist/
+build/
+
+# Miscellaneous
+*.bak
+*.old
+*.orig

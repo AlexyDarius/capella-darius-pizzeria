@@ -54,7 +54,12 @@
       <ownedRolePkg xsi:type="org.polarsys.capella.core.data.oa:RolePkg" id="07f93915-b4af-414e-b15b-66f9d717ccea"
           name="Roles"/>
       <ownedEntityPkg xsi:type="org.polarsys.capella.core.data.oa:EntityPkg" id="0d37af6a-8ccf-48f7-9b64-29f75ee40851"
-          name="Operational Entities"/>
+          name="Operational Entities">
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="97a17cb0-43dc-4c41-928a-8639f9507149"
+            name="Pizzeria" abstractType="#8219d665-9629-4f0f-84c4-a75a3fc19c90"/>
+        <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="8219d665-9629-4f0f-84c4-a75a3fc19c90"
+            name="Pizzeria"/>
+      </ownedEntityPkg>
     </ownedArchitectures>
     <ownedArchitectures xsi:type="org.polarsys.capella.core.data.ctx:SystemAnalysis"
         id="e1c3f6dd-8b1a-4320-a0e0-68e7fcf3c79c" name="System Analysis">
